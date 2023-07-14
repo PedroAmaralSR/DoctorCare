@@ -53,7 +53,7 @@ export function Header(){
 
         <nav>
           <ul>
-              <li><a href="home">Início</a></li>
+              <li><a href="#home">Início</a></li>
               <li><a href="#services">Serviços</a></li>
               <li><a href="#about">Sobre</a></li>
               <li><a href="#contact">Contato</a></li>
@@ -80,7 +80,7 @@ export function Header(){
           </div>
           <nav>
             <ul>
-              <li><a onClick={handleClickClose} href="home">Início</a></li>
+              <li><a onClick={handleClickClose} href="#home">Início</a></li>
               <li><a onClick={handleClickClose} href="#services">Serviços</a></li>
               <li><a onClick={handleClickClose} href="#about">Sobre</a></li>
               <li><a onClick={handleClickClose} href="#contact">Contato</a></li>
