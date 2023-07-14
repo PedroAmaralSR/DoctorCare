@@ -217,6 +217,7 @@ export const Container = styled.div`
       width: 100%;
       display: grid;
       grid-template-areas: 'aside aside aside';
+      gap:3rem;
 
       aside {
         width: 100%;
@@ -383,7 +384,7 @@ export const Container = styled.div`
           max-width: 30.7rem;
 
           h3 {
-            font-size: 2rem;
+            font-size: 1.9rem;
           }
 
           p {
