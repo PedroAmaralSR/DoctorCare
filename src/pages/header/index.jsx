@@ -46,7 +46,7 @@ export function Header(){
   return(
   <Container>
     
-    <header id="home" className={scroll ? 'menuDesktopScroll menuDesktop' : 'menuDesktop'}>
+    <header  className={scroll ? 'menuDesktopScroll menuDesktop' : 'menuDesktop'}>
       <div>
         <a href="#" className="logo"><img src={Logo} alt="logo" /></a>
         <a href="#" className="logo2"><img src={Logo2} alt="logo" /></a>
@@ -64,7 +64,7 @@ export function Header(){
       </div>
     </header>
 
-    <header id="home" className={scroll ? 'menuMobileScroll menuMobile' : 'menuMobile'}>
+    <header  className={scroll ? 'menuMobileScroll menuMobile' : 'menuMobile'}>
 
 
       <div ref={divMenuClose} className="menu">
@@ -101,7 +101,7 @@ export function Header(){
       
     </header>
 
-    <main>
+    <main id="home">
       <div>
         <span>BOAS-VINDAS A DOCTORCARE 👋</span>
 
